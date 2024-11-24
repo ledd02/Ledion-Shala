@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Adventures</title>
+    <link rel="stylesheet" href="led.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Wanderlust Adventures</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <h2>Explore the World</h2>
+            <form id="searchForm" onsubmit="event.preventDefault(); redirectToSearch()" >
+                <div class="messages"> 
+                <input type="text" id="searchInput" placeholder="Search destinations..." /> </div> <br>
+                <div class="sendbutton"> <button type="submit">Search</button> </div>
+            </div>
+            </form>
+           <!-- <div id="searchForm"></div>-->
+            
+        </section>
+    </header>
+    <main>
+        <section id="destinations">
+            <h2>Top Destinations</h2>
+            <div class="destination-grid">
+                <div class="card">
+                    <img src="Paris1.jpg" alt="Paris">
+                    <h3>Paris</h3>
+                    <p>Paris, the capital of France, is renowned for its iconic landmarks like the Eiffel Tower and
+                        Louvre Museum. Known as the "City of Love," it offers world-class art, fashion, and cuisine.</p>
+<a href="https://www.tripadvisor.com/Tourism-g187147-Paris_Ile_de_France-Vacations.html">
+                    <button>Explore</button></a>
+                </div>
+                <div class="card">
+                    <img src="London_Skyline_(125508655).jpeg" alt="London">
+                    <h3>London</h3>
+                    <p>London, the UK’s capital, is known for iconic landmarks like Big Ben and the London Eye. It’s a
+                        vibrant hub of history, culture, and entertainment</p> <br>
+                        <a href="https://www.tripadvisor.co.uk/Attraction_Review-g186338-d654918-Reviews-Museum_Of_Brands-London_England.html">
+                    <button>Explore</button></a>
+                </div>
+
+                <div class="card">
+                    <img src="tokyo02.jpg" alt="Tokyo">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo, Japan's capital, is a dynamic city blending tradition and modernity. Known for landmarks
+                        like Tokyo Skytree, vibrant cuisine, and bustling districts, it offers endless experiences.</p>
+                    <br>
+                    <a href="https://www.tripadvisor.com/Tourism-g298184-Tokyo_Tokyo_Prefecture_Kanto-Vacations.html">
+                    <button>Explore</button></a>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="packages">
+            <section id="packages">
+                <h2>Travel Packages</h2>
+                <div class="package-cards">
+                    <div class="package-card">
+                        <img src="france_packs_paris_02_dc.jpg" alt="Paris Package">
+                        <h3>Paris Getaway</h3>
+                        <p>Enjoy a romantic getaway in the heart of Paris with guided tours, meals, and hotel stay.</p>
+                      <a href="https://www.booking.com/holidays/city/fr/paris.en-gb.html?aid=376628&label=paris-b56muFK4ylShZAxNWCfCfAS585939849293%3Apl%3Ata%3Ap14260%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-106225909%3Alp9070165%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YRfRdUUL2hDP-K5EGN6e6uA&gclid=Cj0KCQiAuou6BhDhARIsAIfgrn4Yw0P_PZPZ80LQvBn2yT4y6fqFQ59n6qx_n9eIoxnySL6Q-d6z9RwaAvMUEALw_wcB&keep_landing=1&sid=8c9732d02b6be63ba01e3afdd315b55e">
+                        <button>Book Now</button></a>
+                    </div>
+                    <div class="package-card">
+                        <img src="ie_uk_packs_london_dc.jpg" alt="London Package">
+                        <h3>London Explorer</h3>
+                        <p>Explore London’s landmarks, including the British Museum and the Tower of London.</p>
+                      <a href="https://gocity.com/en/london/passes/explorer">
+                        <button>Book Now</button></a>
+                    </div>
+                    <div class="package-card">
+                        <img src="paris package.jpg" alt="Paris Package">
+                        <h3>Paris Tour</h3>
+                        <p>Paris, France's capital, is a major European city and a global center for art, fashion and culture</p>
+                        <a href="https://www.exp1.com/paris-tours/louvre-guided-tour/?utm_source=google&utm_medium=cpc&utm_campaign=21906468669&gad_source=1&gclid=CjwKCAiAl4a6BhBqEiwAqvrqugTLVs081c6_cdpnwiU1RgbaGBvI4vIYLTdkwNu9i1blcsmri2YSCBoCzUEQAvD_BwE">
+
+                            <button>Book Now</button></a>
+
+                    </div>
+                    <div class="package-card">
+                        <img src="london package2.jpg" alt="London Package">
+                        <h3>London Tour</h3>
+                        <p>Explore London’s landmarks, including the British Museum and the Tower of London.    </p>
+                        <a href="https://www.touristengland.com/tickets/hop-on-hop-off-london-bus/?gad_source=1&gclid=CjwKCAiAl4a6BhBqEiwAqvrqutbPCgGP3w9YyhJsPh3lYrqOgi1GkV-cIuSQuc7tU8KwdmNrJZ4dSxoCddYQAvD_BwE">
+                        <button>Book Now</button></a>
+                    </div>
+                    <div class="package-card">
+                        <img src="Tokyo-5d4n.png" alt="Tokyo Package">
+                        <h3>Tokyo Adventure</h3>
+                        <p>Experience the vibrant city of Tokyo with guided tours of temples, shopping, and cuisine.</p>
+                        <a href="https://tokyo-daytrips.appspot.com/?gad_source=1&gclid=CjwKCAiAl4a6BhBqEiwAqvrqup9xz3dY-3FUZ2mB-RYrVVMc1cGEtHTjZ80AHZJwplRqn_vJzRwyhxoCmowQAvD_BwE">
+                        <button>Book Now</button></a>
+
+                    </div>
+                </div>
+            </section>
+
+
+        </section>
+    </main>
+    <footer>
+        <section id="contact"></section>
+        <p>&copy; 2024 Wanderlust Adventures. All rights reserved. <br> <br> </p>
+        <div class="contactus">
+            <a href="contact.html">Contact us</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
